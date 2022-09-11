@@ -89,5 +89,8 @@ body {
     display: flex;
     justify-content: center;
   }
+  body {
+    padding-bottom: 10rem;
+  }
 }
 </style>
