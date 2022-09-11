@@ -1,18 +1,47 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld class="header" msg="Welcome." />
+    <div class="links-container">
+      <router-link to="/music" class="links"
+        ><PageLinks msg="W.I.P Music"
+      /></router-link>
+      <router-link to="/gallery" class="links"
+        ><PageLinks msg="Gallery"
+      /></router-link>
+      <a
+        class="links"
+        href="https://kindredsm.github.io/linkhub/"
+        target="_blank"
+      >
+        <PageLinks msg="Linkhub"
+      /></a>
+      <a
+        class="links"
+        href="https://kindredsm.github.io/Cerebration/"
+        target="_blank"
+      >
+        <PageLinks msg="Blog"
+      /></a>
+    </div>
   </div>
 </template>
 
+<style lang="scss">
+.header {
+  font-size: 1.5rem;
+}
+</style>
+
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
+import PageLinks from "/src/components/PageLinks.vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    PageLinks,
+  },
+};
 </script>
