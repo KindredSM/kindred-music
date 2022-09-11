@@ -1,5 +1,5 @@
 <template>
-  <h1 class="header">W.I.P Music</h1>
+  <h1 class="music-header">W.I.P Music</h1>
   <iframe
     width="50%"
     height="166"
@@ -78,7 +78,11 @@
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+.music-header {
+  padding-bottom: 100px;
+}
+</style>
 
 <script>
 export default {
