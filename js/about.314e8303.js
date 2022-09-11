@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkkindred"]=self["webpackChunkkindred"]||[]).push([[443],{672:function(n,r,e){e.r(r),e.d(r,{default:function(){return f}});var u=e(252);const d={class:"about"},t=(0,u._)("h1",null,"Kindred Salway, Producer and Composer from Brighton, UK.",-1),a=[t];function o(n,r){return(0,u.wg)(),(0,u.iD)("div",d,a)}var c=e(744);const i={},s=(0,c.Z)(i,[["render",o]]);var f=s}}]);
+//# sourceMappingURL=about.314e8303.js.map
