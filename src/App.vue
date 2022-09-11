@@ -1,4 +1,5 @@
 <template>
+  <img src="@/assets/moth.webp" class="logo" alt="" srcset="" />
   <nav class="navbar">
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
@@ -36,16 +37,14 @@ body {
   color: #e6e5e5;
 }
 
+.logo {
+  display: none;
+}
 .navbar {
   display: flex;
   justify-content: flex-end;
   padding: 30px;
   gap: 20px;
-
-  .logo {
-    display: flex;
-    width: 100px;
-  }
 
   a {
     font-weight: bold;
@@ -91,6 +90,14 @@ body {
   }
   body {
     padding-bottom: 10rem;
+  }
+  .logo {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70px;
   }
 }
 </style>
