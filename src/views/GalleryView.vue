@@ -2,25 +2,25 @@
   <h1 class="header">Gallery</h1>
   <div class="gallery-grid">
     <img
-      src="@/assets/cyberpunk.png"
+      src="@/assets/cyberpunk.jpeg"
       class="gallery-image"
       alt="gallery image"
       srcset=""
     />
     <img
-      src="@/assets/skull.png"
+      src="@/assets/skull.jpeg"
       class="gallery-image"
       alt="gallery image"
       srcset=""
     />
     <img
-      src="@/assets/redskull.png"
+      src="@/assets/redskull.jpeg"
       class="gallery-image"
       alt="gallery image"
       srcset=""
     />
     <img
-      src="@/assets/woman.png"
+      src="@/assets/woman.jpeg"
       class="gallery-image"
       alt="gallery image"
       srcset=""
