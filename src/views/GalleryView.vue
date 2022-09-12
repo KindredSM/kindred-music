@@ -37,7 +37,7 @@
 }
 .gallery-image {
   width: 400px;
-  border-radius: 20px;
+  border-radius: 3px;
 }
 
 @media screen and (max-width: 960px) {
@@ -48,7 +48,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 8rem;
     padding: 0;
   }
 }

@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <HelloWorld class="header" msg="Welcome." />
+    <HelloWorld class="header" msg="" />
     <div class="links-container">
+      <img src="@/assets/moth.webp" class="logo" alt="" srcset="" />
       <router-link to="/music" class="links"
         ><PageLinks msg="W.I.P Music"
       /></router-link>
@@ -29,6 +30,11 @@
 <style lang="scss">
 .header {
   font-size: 1.5rem;
+}
+
+.logo {
+  width: 80px;
+  padding: 10px 0px 20px 0px;
 }
 </style>
 
