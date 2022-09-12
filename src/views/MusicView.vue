@@ -1,6 +1,7 @@
 <template>
   <h1 class="music-header">W.I.P Music</h1>
   <iframe
+    class="iframe"
     width="50%"
     height="166"
     scrolling="no"
@@ -39,6 +40,7 @@
     >
   </div>
   <iframe
+    class="iframe"
     width="50%"
     height="166"
     scrolling="no"
@@ -81,6 +83,11 @@
 <style lang="scss">
 .music-header {
   padding-bottom: 100px;
+}
+
+.iframe {
+  width: 80%;
+  border-radius: 5px;
 }
 </style>
 

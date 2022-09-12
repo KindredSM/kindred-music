@@ -37,10 +37,9 @@ body {
   color: #e6e5e5;
 }
 
-
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 30px;
   gap: 20px;
 
@@ -98,5 +97,6 @@ body {
     margin: 0 auto;
     width: 70px;
   }
+  
 }
 </style>

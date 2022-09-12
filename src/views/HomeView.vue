@@ -33,7 +33,7 @@
 }
 
 .logo {
-  width: 80px;
+  width: 100px;
   padding: 10px 0px 20px 0px;
 }
 </style>
