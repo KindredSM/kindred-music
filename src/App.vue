@@ -97,6 +97,5 @@ body {
     margin: 0 auto;
     width: 70px;
   }
-  
 }
 </style>
