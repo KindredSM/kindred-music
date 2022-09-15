@@ -86,7 +86,7 @@
 }
 
 .iframe {
-  width: 90%;
+  width: 91%;
   border-radius: 5px;
 }
 </style>
