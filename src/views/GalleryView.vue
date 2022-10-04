@@ -1,5 +1,5 @@
 <template>
-  <h1 class="header">Gallery</h1>
+  <h1 class="header">AI generated image gallery</h1>
   <div class="gallery-grid">
     <img
       src="@/assets/cyberpunk.jpeg"

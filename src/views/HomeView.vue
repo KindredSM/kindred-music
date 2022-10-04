@@ -4,10 +4,10 @@
     <div class="links-container">
       <img src="@/assets/moth.webp" class="logo" alt="" srcset="" />
       <router-link to="/music" class="links"
-        ><PageLinks msg="W.I.P Music"
+        ><PageLinks msg="Music"
       /></router-link>
       <router-link to="/gallery" class="links"
-        ><PageLinks msg="Gallery"
+        ><PageLinks msg="AI art gallery"
       /></router-link>
       <a
         class="links"
